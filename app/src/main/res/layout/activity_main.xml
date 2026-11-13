@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_oled"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <!-- Top Status Strip -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="blockit."
+            android:textColor="@color/ink_white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvActiveBag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BAG 1: STUDY"
+            android:textColor="@color/ink_muted"
+            android:background="@color/bg_elevated"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/tvParachutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🪂 1/2"
+            android:textColor="@color/ink_white"
+            android:background="@color/bg_elevated"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/border_ind"
+        android:layout_marginVertical="16dp" />
+
+    <!-- Morphing Timer Display -->
+    <com.blockit.detox.views.BlockyMorphTimerView
+        android:id="@+id/morphTimer"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Rotary Wheel Dial -->
+    <com.blockit.detox.views.RotaryWheelView
+        android:id="@+id/rotaryWheel"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginVertical="12dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Lock CTA Button -->
+    <Button
+        android:id="@+id/btnLockPhone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🔒 LOCK PHONE NOW"
+        android:textColor="@color/bg_oled"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/ink_white" />
+</LinearLayout>

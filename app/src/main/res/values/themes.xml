@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.Blockit" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/bg_oled</item>
+        <item name="android:statusBarColor">@color/bg_oled</item>
+        <item name="android:navigationBarColor">@color/bg_oled</item>
+    </style>
+
+    <style name="Theme.Blockit.LockScreen" parent="Theme.Blockit">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowShowWhenLocked">true</item>
+        <item name="android:windowTurnScreenOn">true</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">blockit</string>
+    <string name="a11y_service_description">Keeps your phone locked during active focus sessions. Only monitors foreground app package names to verify if an app is in your Suitcase. Never reads screen content, keystrokes, or personal data.</string>
+</resources>

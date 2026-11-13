@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_oled">#0A0A0C</color>
+    <color name="bg_card">#16171B</color>
+    <color name="bg_elevated">#1E1F25</color>
+    <color name="border_ind">#2C2E37</color>
+    <color name="ink_white">#F5F5F7</color>
+    <color name="ink_muted">#8E929F</color>
+    <color name="accent_red">#FF3B30</color>
+    <color name="accent_amber">#FFB800</color>
+    <color name="accent_emerald">#30D158</color>
+</resources>
